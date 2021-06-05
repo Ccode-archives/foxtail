@@ -1,4 +1,4 @@
-# shelly-shell
+# foxtail
 A simple shell language made for Linux computers. It compiles to bash as it is typed.
 
 # usage
