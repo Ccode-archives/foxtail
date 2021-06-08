@@ -1,4 +1,5 @@
 from termcolor import colored as c
+from termcolor import cprint
 import os
 running = True
 def NU():
@@ -40,6 +41,8 @@ while running:
         read = inp.replace("read ", "")
         if not os.system("cat " + read) == 0:
             print("bash error")
+    elif inp.startswith("version"):
+        cprint("1.0", 'green')
     elif inp == "exit":
         running = False
     else:
