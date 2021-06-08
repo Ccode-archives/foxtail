@@ -6,7 +6,7 @@ def NU():
 while running:
     path_ = os.getcwd()
     path = format(path_)
-    inp = input(c(path, 'blue'), c(" $", 'green'))
+    inp = input(c(path, 'blue') + c(" $", 'green'))
     if inp.startswith("cd ") == True:
         try:
             change = inp.replace("cd ", "")
