@@ -8,7 +8,7 @@ Foxtail is made to work as fast as or a little slower than bash. To run run shel
 
 
 
-
+cd:```cd dir```  
 ls:```l```  
 pwd:```cwd```  
 echo stays the same between languages  
@@ -17,6 +17,7 @@ rm file:```rem file```
 rm -r file:```remdir file```  
 touch file:```mf file```  
 cat file:```read file```  
+version:prints versoin number
 exit to end shell run  
 
 
