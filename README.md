@@ -28,3 +28,6 @@ The code below will delete file ```hi.txt``` and then remake it.
 rem hi.txt
 mf hi.txt
 ```
+
+# needed modules (python3)
+termcolor (```pip3 install termcolor```)
