@@ -1,3 +1,4 @@
+from termcolor import colored as c
 import os
 running = True
 def NU():
@@ -5,17 +6,17 @@ def NU():
 while running:
     path_ = os.getcwd()
     path = format(path_)
-    inp = input(path + " $")
+    inp = input(c(path, 'blue'), c(" $", 'green'))
     if inp.startswith("cd ") == True:
         try:
             change = inp.replace("cd ", "")
             os.chdir(path + "/" + change)
         except:
-            print("File is either not a directory or dose not exist.")
+            print("File is either not a directory or does not exist.")
     elif inp == "l":
         os.system("ls")
     elif inp == "cwd":
-        print(path)
+        print(c(path, 'green'))
     elif inp.startswith("echo ") == True:
         out = inp.replace("echo ", "")
         print(out)
