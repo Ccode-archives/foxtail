@@ -17,7 +17,7 @@ rm file:```rem file```
 rm -r file:```remdir file```  
 touch file:```mf file```  
 cat file:```read file```  
-version:prints versoin number
+version:prints versoin number  
 exit to end shell run  
 
 
