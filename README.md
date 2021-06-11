@@ -2,13 +2,13 @@
 A simple shell language made for Linux computers. It compiles to bash as it is typed.
 
 # usage
-Foxtail is made to work as fast as or a little slower than bash. To run run shelly.py
+Foxtail is made to work as fast as or a little slower than bash. To run run foxtail.py
 
 
 
 
 
-cd:```cd dir```  
+cd dir:```cd dir```  
 ls:```l```  
 pwd:```cwd```  
 echo stays the same between languages  
