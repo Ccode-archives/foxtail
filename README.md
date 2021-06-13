@@ -6,7 +6,8 @@ Foxtail is made to work as fast as or a little slower than bash. To run run foxt
 
 
 
-
+# How to read docs 
+bash command:```foxtail command'''
 
 cd dir:```cd dir```  
 ls:```l```  
